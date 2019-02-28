@@ -3,7 +3,7 @@
  } 
 body {
     font-size: 20px;
-    background-color:#efeee7;
+    background-color:rgb(212, 193, 164);
     margin: 0;
     padding: 0;
     line-height:150%;
@@ -66,21 +66,24 @@ p {
     overflow: auto;
     width: 1800px;
     margin: 0 auto;
-    height:100%;
-    background-color:blanchedalmond;
+    height:1200px;
+    background-color: #efeee7;
     border-style:double;
 }
 
 .head-container {
     width: 1800px;
     margin: 0 auto;
-    background-color: black;
 }
 
 .full{
     width: 100%;
-    background-color:#efeee7;
+    background-color:rgb(212, 193, 164);
 
 }
 
-
+header {
+    background-color: #efeee7;
+    height: 122px;
+    width: 100%;
+}

@@ -3,118 +3,167 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="assests/css/style.css" rel="stylesheet" type="text/css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+
 </head>
 
+
 <body>
+  <div class="header">
+    <!-- <div class="row">
+      <div class="col-md-6">
+        <h2><strong>Jose Menis</strong></h2>
+      </div>
+      <div class="col-md-6"> -->
+    <h2>joseamenis@gmail.com</h2>
+    <!-- </div>
+    </div> -->
+  </div>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jose Menis</a>
-      <nav>
-        <a href="https://github.com/josemenis">Github</a>
-        <a href="https://www.linkedin.com/in/jose-a-menis">LinkedIn</a>
-      </nav>
-    </div>
-  </header>
+  <div id="navbar">
+    <a class="active" href="https://github.com/josemenis">Github</a>
+    <a href="https://www.linkedin.com/in/jose-a-menis">LinkedIn</a>
+  </div>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-      <img src="assests/images/Self pic..jpg" class="auth-image" alt="Jose Menis">
+  <div class="container">
+    <div class="jumbotron">
+      <img src="assests/images/Self pic..jpg" class="round" alt="Jose Menis">
       <p>
-        Hi! I am a life long learner and a work in progress. I love learning new things. Recently, I decided to learn
-        how to code.
-        In doing so, I learned that some things take more time to learn than others but the end result is the same.
+        What's up! I am newbie to coding but I enjoy it. It's a love and hate relationship. I love it when I solve
+        problems but hate it when I get stuck.
+        I learned that some things take more time to learn than others but the end result is the same.
         <br>
         Eric Thomas said, " Don't rush the process, trust the process! ".
       </p>
-    </section>
+    </div>
+    <h1>Projects</h1>
+      <div class="media">
+          <img src="assests/Images/petTinder.JPG"/>
+          <div class="media-body">
+            <a href="https://thepetinder.herokuapp.com/"><h3><strong>Project-2 Petinder</strong></h3></a>
+            <p>This app let's the user look up a pet in the database and add a pet.</p>
 
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1>Projects</h1>
+            <a href="https://rpetinder.herokuapp.com/"><h3><strong>Project-3 Petinder_React</strong></h3></a>
+              <p>An Improved version of Project-2. This one uses react and hashes passwords.</p>
+        </div>
+      </div>
 
-        <!-- made image clickable and linked github.io url to Naruto Uzumaki image! -->
-        <div class="work">
-          <a href="https://josemenis.github.io/Psychic-Game/">
-            <img src="assests\images\snoop.gif" alt="Psychic Game" width="200px" height="200px" />
-          </a>
 
-          <h3>Psychic Game</h3>
+      <div class="card" style="width: 18rem;">
+        <img src="assests\images\snoop.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Psychic Game</h5>
+          <p class="card-text">Guessing Game using JS</p>
+          <a href="https://josemenis.github.io/Psychic-Game/" class="btn btn-primary">Game Button</a>
         </div>
+      </div>
 
-        <div class="work">
-          <a href="https://josemenis.github.io/unit-4-game/">
-            <img src="assests/images/Shippuden.gif" alt="Game" width="200px" height="200px" />
-          </a>
-          </a>
-          <h3>unit-4-game</h3>
-        </div>
 
-        <div class="work">
-          <a href="https://josemenis.github.io/TriviaGame/">
-            <img src="assests/images/rehab.jpg" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>TriviaGame</h3>
+      <div class="">
+        <img src="assests/images/rehab.jpg" alt="Game" width="200px" height="200px" />
+        <a href="https://josemenis.github.io/TriviaGame/">
+        </a>
+        <h3>TriviaGame</h3>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assests\images\snoop.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Psychic Game</h5>
+          <p class="card-text">Guessing Game using JS</p>
+          <a href="https://josemenis.github.io/Psychic-Game/" class="btn btn-primary">Game Button</a>
         </div>
+      </div>
 
-        <div class="work">
-          <a href="https://josemenis.github.io/GifTastic/">
-            <img src="assests/images/heroesForsale.jpg" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>GifTastic</h3>
-        </div>
 
-        <div class="work">
-          <a href="https://josemenis.github.io/Train-Scheduler/">
-            <img src="assests/images/tumblr_oqtyff0nHZ1r9i2iuo2_500.gif" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>Train-Scheduler</h3>
-        </div>
 
-        <div class="work">
-          <a href="https://cryptic-waters-90353.herokuapp.com/">
-            <img src="assests/images/waterfall.jpg" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>Friend-Finder</h3>
-        </div>
-        <div class="work">
-          <a href="https://thepetinder.herokuapp.com/">
-            <img src="assests/images/chair.jpeg" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>Group Project-2 Petinder</h3>
-        </div>
-        
-        <div class="work">
-          <a href="https://josemenis.github.io/Clicky-Game/">
-            <img src="assests/images/notw.png" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>Clicky-Game React App</h3>
-        </div>
-        <div class="work">
-          <a href="https://googleb00ks.herokuapp.com/">
-            <img src="assests/images/tripLee.jpg" alt="Game" width="200px" height="200px" />
-          </a>
-          <h3>Googleb00ks React App</h3>
-        </div>
 
-        <div class="work">
-            <a href="https://rpetinder.herokuapp.com/">
-              <img src="assests/images/chair.jpeg" alt="Game" width="200px" height="200px" />
-            </a>
-            <h3>Group Project-3 Petinder_React App</h3>
-          </div>
-      </section>
+      <div class="">
+        <img src="assests/images/heroesForsale.jpg" alt="Game" width="200px" height="200px" />
+        <a href="https://josemenis.github.io/GifTastic/">
+        </a>
+        <h3>GifTastic</h3>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assests\images\snoop.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Psychic Game</h5>
+          <p class="card-text">Guessing Game using JS</p>
+          <a href="https://josemenis.github.io/Psychic-Game/" class="btn btn-primary">Game Button</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="">
+        <img src="assests/images/waterfall.jpg" alt="Game" width="200px" height="200px" />
+        <a href="https://cryptic-waters-90353.herokuapp.com/">
+        </a>
+        <h3>Friend-Finder</h3>
+      </div>
+
+
+      <div class="">
+        <img src="assests/images/notw.png" alt="Game" width="200px" height="200px" />
+        <a href="https://josemenis.github.io/Clicky-Game/">
+        </a>
+        <h3>Clicky-Game React App</h3>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assests\images\snoop.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Psychic Game</h5>
+          <p class="card-text">Guessing Game using JS</p>
+          <a href="https://josemenis.github.io/Psychic-Game/" class="btn btn-primary">Game Button</a>
+        </div>
+      </div>
+
+
+
+
+      <div class="">
+        <img src="assests/images/tripLee.jpg" alt="Game" width="200px" height="200px" />
+        <a href="https://googleb00ks.herokuapp.com/">
+        </a>
+        <h3>Googleb00ks React App</h3>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assests\images\snoop.gif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Psychic Game</h5>
+          <p class="card-text">Guessing Game using JS</p>
+          <a href="https://josemenis.github.io/Psychic-Game/" class="btn btn-primary">Game Button</a>
+        </div>
+      </div>
+
+
+
+
 
     </div>
 
   </div>
+
   <footer>
-    <h2>joseamenis@gmail.com</h2>
   </footer>
+
+  <!-- Optional JavaScript -->
+  <script src="script.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
